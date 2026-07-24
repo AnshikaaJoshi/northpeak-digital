@@ -1,5 +1,4 @@
 import { FaArrowRight } from "react-icons/fa";
-import heroImage from "../assets/hero.webp";
 
 function Hero() {
   return (
@@ -48,7 +47,7 @@ function Hero() {
         {/* Right Image */}
         <div className="lg:w-1/2 flex justify-center">
           <img
-          src={hero}
+          src="/hero.webp"
           alt="Business team collaborating in a modern office"
           width="1200"
           height="700"
