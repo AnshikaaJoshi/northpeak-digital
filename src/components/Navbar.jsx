@@ -24,14 +24,15 @@ function Navbar() {
         </ul>
 
         {/* Desktop Button */}
-        <button className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 hover:scale-105 transition duration-300">
+        <button className="hidden md:block bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 hover:scale-105 transition duration-300">
           Get Started
         </button>
 
         {/* Mobile Menu Icon */}
         <button
-          className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 hover:scale-105 transition duration-300"
-          onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+        className="md:hidden bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 hover:scale-105 transition duration-300"
+        onClick={() => setMenuOpen(!menuOpen)}
+        aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
         >
           {menuOpen ? <FaTimes /> : <FaBars />}
         </button>
