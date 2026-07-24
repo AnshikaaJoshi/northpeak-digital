@@ -16,7 +16,7 @@ function Hero() {
             <span className="text-blue-600"> Modern Digital Solutions</span>
           </h1>
 
-          <p className="text-gray-600 text-lg mt-6">
+          <p className="text-gray-800 text-lg mt-6">
             We create stunning websites, mobile applications,
             and digital experiences that help businesses attract
             more customers and increase revenue.
@@ -49,7 +49,7 @@ function Hero() {
           <img
             src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=700"
             alt="Business Team"
-            className="rounded-2xl shadow-2xl"
+            className="rounded-2xl shadow-2xl" width="1200" height="700"
           />
         </div>
 

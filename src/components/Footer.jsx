@@ -13,7 +13,7 @@ function Footer() {
 
         <hr className="my-6 border-gray-700"/>
 
-        <p className="text-gray-500">
+        <p className="text-gray-700">
           © 2026 NorthPeak Digital. All Rights Reserved.
         </p>
 
