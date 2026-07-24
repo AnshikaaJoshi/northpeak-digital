@@ -13,8 +13,16 @@ function Footer() {
 
         <hr className="my-6 border-gray-700"/>
 
-        <p className="text-white">
-          © 2026 NorthPeak Digital. All Rights Reserved.
+        <p className="mt-4 text-sm text-gray-400">
+          Built for Digital Heroes Training Task |{" "}
+          <a
+            href="https://digitalheroesco.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            digitalheroesco.com
+          </a>
         </p>
 
       </div>
