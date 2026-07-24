@@ -5,22 +5,22 @@ function Results() {
 
         <div>
           <p className="text-6xl font-bold">500+</p>
-          <p className="text-lg mt-2 text-blue-100">Successful Projects</p>
+          <p className="text-lg mt-2 text-white">Successful Projects</p>
         </div>
 
         <div>
           <p className="text-6xl font-bold">98%</p>
-          <p className="text-lg mt-2 text-blue-100">Client Satisfaction</p>
+          <p className="text-lg mt-2 text-white">Client Satisfaction</p>
         </div>
 
         <div>
           <p className="text-6xl font-bold">50+</p>
-          <p className="text-lg mt-2 text-blue-100">Experts</p>
+          <p className="text-lg mt-2 text-white">Experts</p>
         </div>
 
         <div>
           <p className="text-6xl font-bold">10+</p>
-          <p className="text-lg mt-2 text-blue-100">Years Experience</p>
+          <p className="text-lg mt-2 text-white">Years Experience</p>
         </div>
 
       </div>

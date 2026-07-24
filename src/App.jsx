@@ -12,6 +12,8 @@ function App() {
   return (
     <>
       <Navbar />
+
+      <main>
       <Hero />
       <Services />
       <WhyChooseUs />
@@ -19,6 +21,8 @@ function App() {
       <Testimonials />
       <Pricing />
       <Contact />
+      </main>
+      
       <Footer />
     </>
   );
