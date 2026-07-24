@@ -48,7 +48,7 @@ function Hero() {
         {/* Right Image */}
         <div className="lg:w-1/2 flex justify-center">
           <img
-          src={heroImage}
+          src={hero}
           alt="Business team collaborating in a modern office"
           width="1200"
           height="700"
