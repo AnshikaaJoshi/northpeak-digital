@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
+import heroImage from "../assets/hero.webp";
 
 function Hero() {
   return (
@@ -11,9 +12,9 @@ function Hero() {
             🚀 Welcome to NorthPeak Digital
           </p>
 
-          <h1 className="text-5xl font-bold text-gray-900 leading-tight">
-            Grow Your Business With
-            <span className="text-blue-600"> Modern Digital Solutions</span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+              Grow Your Business With
+          <span className="text-blue-600"> Modern Digital Solutions</span>
           </h1>
 
           <p className="text-gray-800 text-lg mt-6">
@@ -23,9 +24,9 @@ function Hero() {
           </p>
 
           <div className="flex gap-4 mt-8 flex-wrap">
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 hover:scale-105 transition duration-300 shadow-lg">
-              Get Started
-              <FaArrowRight />
+            <button className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 hover:scale-105 transition duration-300 shadow-lg">
+                    Get Started
+                    <FaArrowRight />
             </button>
 
             <button className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 hover:scale-105 transition duration-300">
@@ -47,9 +48,12 @@ function Hero() {
         {/* Right Image */}
         <div className="lg:w-1/2 flex justify-center">
           <img
-            src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=700"
-            alt="Business Team"
-            className="rounded-2xl shadow-2xl" width="1200" height="700"
+          src={heroImage}
+          alt="Business team collaborating in a modern office"
+          width="1200"
+          height="700"
+          decoding="async"
+          className="rounded-2xl shadow-2xl w-full h-auto"
           />
         </div>
 

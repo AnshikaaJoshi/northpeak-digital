@@ -7,13 +7,13 @@ function Footer() {
           NorthPeak Digital
         </h2>
 
-        <p className="text-gray-400 mt-3">
+        <p className="text-gray-300 mt-3">
           Helping businesses grow through modern digital solutions.
         </p>
 
         <hr className="my-6 border-gray-700"/>
 
-        <p className="text-gray-700">
+        <p className="text-gray-300">
           © 2026 NorthPeak Digital. All Rights Reserved.
         </p>
 

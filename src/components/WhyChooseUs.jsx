@@ -19,8 +19,9 @@ function WhyChooseUs() {
         <div className="grid md:grid-cols-2 gap-8">
           {features.map((feature, index) => (
             <div
-              key={index}
-              className="flex items-center gap-4 bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg transition"
+              key={feature}
+              tabIndex={0}
+              className="flex items-center gap-4 bg-gray-100 p-6 rounded-xl shadow hover:shadow-lg hover:scale-105 transition-all duration-300"
             >
               <FaCheckCircle className="text-green-500 text-3xl" />
               <h3 className="text-xl font-semibold">{feature}</h3>

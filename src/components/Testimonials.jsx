@@ -28,20 +28,22 @@ review:"Highly recommended."
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <motion.div
-            key={index}
+              key={testimonial.name}
+              tabIndex={0}
               whileHover={{ scale: 1.05 }}
               whileInView={{ opacity: 1, y: 0 }}
               initial={{ opacity: 0, y: 50 }}
               transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
               className="bg-white p-8 rounded-2xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 cursor-pointer ">
         
               <h3 className="text-2xl font-bold mt-4">
                 {testimonial.name}
               </h3>
-              <h3 className="text-2xl font-semibold mt-4">
-                {testimonial.company}
-              </h3>
-              <p className="text-gray-600 mt-2">
+              <p className="text-blue-600 font-medium">
+                 {testimonial.company}
+              </p>
+              <p className="text-gray-700 mt-2">
                 {testimonial.review}
               </p>
             </motion.div>

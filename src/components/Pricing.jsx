@@ -11,41 +11,31 @@ function Pricing() {
 
           <div className="bg-white p-8 rounded-2xl shadow-lg">
 
-<h3 className="text-2xl font-bold">
-Starter
-</h3>
+          <h3 className="text-2xl font-bold">Starter</h3>
 
-<h2 className="text-5xl font-bold my-6">
-$99
-</h2>
+          <p className="text-5xl font-bold my-6"> $99</p>
 
-<ul className="space-y-3 text-gray-600">
+                  <ul className="space-y-3 text-gray-700">
 
-<li>✔ Responsive Website</li>
+                  <li>✔ Responsive Website</li>
+                  <li>✔ Email Support</li>
+                  <li>✔ SEO Basics</li>
+                  <li>✔ 1 Month Support</li>
+                  </ul>
 
-<li>✔ Email Support</li>
+            <button className="mt-8 w-full bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700 transition duration-300">Choose Plan</button>
 
-<li>✔ SEO Basics</li>
+        </div>
 
-<li>✔ 1 Month Support</li>
-
-</ul>
-
-<button className="mt-8 w-full bg-blue-600 text-white py-3 rounded-xl">
-Choose Plan
-</button>
-
-</div>
-
-          <div className="bg-blue-600 text-white p-8 rounded-xl shadow-xl">
+          <div className="bg-blue-600 text-white p-8 rounded-xl shadow-xl hover:scale-105 transition-all duration-300">
             <h3 className="text-2xl font-bold">Professional</h3>
-            <h2 className="text-4xl font-bold mt-4">$299</h2>
+            <p className="text-4xl font-bold mt-4">$299</p>
             <p className="mt-4">Best for growing businesses.</p>
           </div>
 
-          <div className="bg-white p-8 rounded-xl shadow">
+          <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
             <h3 className="text-2xl font-bold">Enterprise</h3>
-            <h2 className="text-4xl font-bold mt-4">$599</h2>
+            <p className="text-4xl font-bold mt-4">$599</p>
             <p className="mt-4">For large companies.</p>
           </div>
 

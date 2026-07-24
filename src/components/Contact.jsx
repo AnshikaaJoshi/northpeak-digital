@@ -12,10 +12,6 @@ function Contact() {
       return;
     }
 
-    console.log(name);
-    console.log(email);
-    console.log(message);
-
     alert("Thank you! We'll contact you soon.");
 
     // Clear the form
@@ -33,11 +29,22 @@ function Contact() {
 
         <form onSubmit={handleSubmit} className="space-y-5 max-w-xl mx-auto">
 
-          <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Your Name" className="w-full border border-gray-300 rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        <label htmlFor="name" className="font-medium">
+                   Your Name
+        </label>
+          <input required id="name" type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Your Name" className="w-full border border-gray-300 rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-blue-500"/>
 
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" className="w-full border border-gray-300 rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-blue-500"/>
 
-          <textarea value={message} onChange={(e) => setMessage(e.target.value)} rows="5" placeholder="Your Message" className="w-full border border-gray-300 rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        <label htmlFor="email" className="font-medium">
+                   Your Email
+        </label>
+          <input required id="email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" className="w-full border border-gray-300 rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-blue-500"/>
+
+        <label htmlFor="textarea" className="font-medium">
+                   Your Message
+        </label>
+
+          <textarea  required id="message" value={message} onChange={(e) => setMessage(e.target.value)} rows="5" placeholder="Your Message" className="w-full border border-gray-300 rounded-xl p-4 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
 
           <button type="submit" className="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 hover:scale-105 transition duration-300">
             Send Message
