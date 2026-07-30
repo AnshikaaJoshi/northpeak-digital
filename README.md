@@ -3,12 +3,11 @@
 A modern and responsive digital agency website built with **React.js**, **Vite**, and **Tailwind CSS**. The website showcases a clean UI, smooth user experience, and multiple business-focused sections for presenting services and engaging potential clients.
 
 ## 🚀 Live Demo
-
-🔗 https://your-vercel-link.vercel.app
+https://vercel.com/anshika19/northpeak-digital
 
 ## 📂 GitHub Repository
 
-🔗 https://github.com/AnshikaaJoshi/your-repository-name
+https://github.com/AnshikaaJoshi/northpeak-digital
 
 ---
 
